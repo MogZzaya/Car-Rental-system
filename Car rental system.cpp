@@ -3,7 +3,7 @@
 #include<fstream>
 using namespace std;
 template<typename T1>
-// Barthena
+
 class Car_Rental {
 private:
 T1 ID;
@@ -56,7 +56,7 @@ void display() const {
 }
 };
 
-// Sara 
+
 
 // LL class Node 
 template<typename T > 
@@ -158,7 +158,7 @@ void sortByPrice(){
     cout << "Cars sorted by price!\n";
 }
 
-// philopater
+
 
 // sort by name 
 void sortByName(){
@@ -209,7 +209,7 @@ void writeToFile(ofstream &file) const {
 }
 };
 
-// Naguib
+
 
 // BST
 template <typename T> 
@@ -261,7 +261,7 @@ bool insert ( Car_Rental<T> vehicle){
     return true;
 }
 
-// Barthena
+
 
 // inorder traversal
 
@@ -294,7 +294,6 @@ BSTNode<T>* SearchById(T id){
     return nullptr;// car not found
 }
 
-// Naguib 
 
 // delete by ID
 
@@ -340,7 +339,6 @@ void deleteByID(T id){
 }
 };
 
-// Mariam
 
 // stack Node
 
@@ -413,7 +411,7 @@ class stack{
     }
 };
 
-// Marina & Dina
+
 
 // customers 
 template<typename Q>
@@ -550,7 +548,6 @@ void Clear_queue()
 
 
 
-// philopater 
 
 // files for cars
 template <typename T>
@@ -644,9 +641,7 @@ class Files{
 };
 
 
-// Naguib & Marina
 
-// Naguib 
 
 // rental logic 
 
@@ -691,7 +686,6 @@ if(carInList != nullptr){
     cout<<"Car rented successfully!\n";
 }
 
-// Marina
 
 // return a car 
 
@@ -750,7 +744,6 @@ while(!tempStack.isempty()){
 }
 
 
-// Dina 
 
 // menu 
 
